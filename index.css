@@ -1,0 +1,200 @@
+
+
+/*top*/
+body{
+  background-color:greenyellow;
+  height:0px;
+}
+#pagetop{
+  pointer-events:none;
+}
+#welcome{
+  background-color:#C9FCFB;
+}
+#slide-nav2{
+  color:#110066;
+}
+.sec-2-main-title{
+  color:#056CF2;
+}
+
+#slide-nav3{
+  color:#F20587;
+}
+
+.sec-3-main-title{
+  color:#D50DD9;
+}
+.menu-content{
+  color:#FFFFFF;
+}
+#menu{
+  background-color:#FFF8DC;
+}
+#photo{
+  background-color:#FAC5EB;
+  color:#0528F2;
+}
+
+#slide-nav5{
+  color:#17C37B;
+  
+}
+#H-menu{
+  color:#00FFBA;
+}
+
+#pagetop{
+  color:#00FFBA;
+}
+
+
+/*top title picture*/
+div.nav-logo{
+  
+  width:px;
+  heigth:px;
+}
+/*top title picture*/
+.nav-picture{
+  position:absolute;
+  left:30px;
+  
+}
+
+#welcome{
+  heigth:px;
+  text-aligin:center;
+}
+
+div.menu-content{
+  font-family:sans-serif;
+}
+
+div.sec-2{
+  font-family:sans-serif;
+}
+div.menu-content{
+ 
+}
+/*sisar*/
+.pc-fix-right{
+  position:absolute;
+  right:475px;
+}
+.menu-soki{
+  position:absolute;
+  right:300px;
+  background-color:red;
+  heigth:1000px;
+  width:1000px;
+  top:60px;
+}
+
+
+.menu-sanmai{
+  position:absolute;
+  left:60px;
+  background-color:#00bfff;
+  heigth:1000px;
+  width:1000px;
+  top:65px;
+}
+.menu-tebici{
+  position:absolute;
+  right:300px;
+  background-color:#FFA500;
+  heigth:1000px;
+  width:1000px;
+  top:65px;
+}
+.menu-mix{
+  position:absolute;
+  left:60px;
+  background-color:#00ff00;
+  heigth:1000px;
+  width:1000px;
+  top:65px;
+}
+.menu-jucy{
+  position:absolute;
+  right:300px;
+  background-color:#FA58F4;
+  heigth:1000px;
+  width:1000px;
+  top:65px;
+}
+
+
+.no1{
+  position:absolute;
+  left:0px;
+}
+.no2{
+  position:absolute;
+  left:0px;
+}
+
+.no3{
+  position:absolute;
+  left:0px;
+}
+.no4{
+  position:absolute;
+  left:0px;
+}
+.no5{
+  position:absolute;
+  left:0px;
+}
+
+
+.slide {
+  position   : absolute;
+  overflow   : hidden;
+               
+  width      : 1000px;
+  height     : 460px;
+  left:500px;
+  top:0px;
+  margin     : auto;      
+  background : #fff;
+}
+ 
+
+.slide img {
+  display    : block;
+  position   : absolute;
+  width      : inherit;
+  height     : inherit;
+  opacity    : 0;
+  animation  : slideAnime 15s ease infinite;
+}
+ 
+.slide img:nth-of-type(1) { animation-delay: 0s }
+.slide img:nth-of-type(2) { animation-delay: 4s }
+.slide img:nth-of-type(3) { animation-delay: 7s }
+.slide img:nth-of-type(4) { animation-delay: 10s }
+.slide img:nth-of-type(5) { animation-delay: 13s }
+ 
+
+@keyframes slideAnime{
+   0% { opacity: 0; transform: scale(.1, .1)}
+   2% { opacity: 1; transform: scale(1, 1)  }
+  18% { opacity: 1; transform: scale(1, 1)  }
+  20% { opacity: 0; transform: scale(2, 2)  }
+ 100% { opacity: 0; transform: scale(2, 2)  }
+}
+
+#cursor {
+  transform: translate(0, 0);
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  width: 176px;
+  height: 200px;
+  background: url(https://kage-design.com/k/k0622/k0622MV.png) no-repeat;
+  border-radius: 50%;
+  z-index: 999;
+  transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+}
